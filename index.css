@@ -28,6 +28,18 @@
     font-size: 1.3em;
   }
   
+  .tennisBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    background: url(images/background.jpg) fixed;
+    border: 0.1em whitesmoke solid;
+  }
+
   .startQuiz,
   .box {
     display: flex;
@@ -89,24 +101,17 @@
     display: block;
   }
   
-  /* ----------*/
-
-  .questionBox {
-    display: inline-block;
-    list-style: circle;
-    margin: auto;
-    padding: 3em;
-    border: 0.1em whitesmoke solid;
-    background-color: brown;
-  }
-
-  h2 {
-    text-transform: lowercase;
-  }
-
-  /* ----------*/
 
   @media only screen and (min-width: 320px) {
+
+    .tennisBox {
+      width: 90%;
+      height: 31em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0.8em;
+      padding-bottom: 0.8em;
+    }
 
     .box {
       width: 90%;
@@ -141,6 +146,13 @@
   }
   
   @media only screen and (min-width: 550px) {
+    .tennisBox {
+      width: 29.5em;
+      height: 31.5em;
+      padding-top: 2.6em;
+      padding-bottom: 2.6em;
+    }
+   
     .box {
       width: 85%;
       height: 98%;
@@ -170,6 +182,11 @@
       font-size: 1.3em;
     }
   
+    .tennisBox {
+      width: 35em;
+      height: 38em;
+    }
+
     .box {
       width: 85%;
       height: 95%;
