@@ -89,9 +89,25 @@
     display: block;
   }
   
+  /* ----------*/
+
+  .questionBox {
+    display: inline-block;
+    list-style: circle;
+    margin: auto;
+    padding: 3em;
+    border: 0.1em whitesmoke solid;
+    background-color: brown;
+  }
+
+  h2 {
+    text-transform: lowercase;
+  }
+
+  /* ----------*/
+
   @media only screen and (min-width: 320px) {
 
-  
     .box {
       width: 90%;
       height: 90%;
