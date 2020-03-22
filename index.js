@@ -189,6 +189,7 @@ function finalScore() {
 
   return $('.final').html(
     `<h3>${array[0]}</h3>
+    <img src="images/end.jpg" alt="tennis player funny face" class="images">
         <h3>Your score is ${score} / 5</h3>
         <p class="sizeMe">${array[1]}</p>
         <button type="submit" class="restartButton button">Restart</button>`
